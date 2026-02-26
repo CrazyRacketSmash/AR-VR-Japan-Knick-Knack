@@ -1,0 +1,553 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.7f1 (696ec25a53d1) revision 6909634'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) Core' Language: 'en' Physical Memory: 15720 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Huy" at "2026-02-26T21:02:41.0834091Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-26T21:02:41Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Huy/VR_Project_1/VR_1
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+57963
+-licensingIpc
+LicenseClient-Huy
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Huy/VR_Project_1/VR_1
+C:/Users/Huy/VR_Project_1/VR_1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [8936]  Target information:
+
+Player connection [8936]  * "[IP] 10.10.108.178 [Port] 0 [Flags] 2 [Guid] 3254929813 [EditorId] 3254929813 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TFC479D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [8936] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8936] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 348.23 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 4.12 ms.
+Initialize engine version: 6000.3.7f1 (696ec25a53d1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Huy/VR_Project_1/VR_1/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.8132
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              b040a9a924004125bf10d20f6a8692da
+  Correlation Id:          461a07af8c964f5848b39d6a12e99a94
+  External correlation Id: 6301000006136902444
+  Machine Id:              q6xk2LuWl63HV6xgbHtH6jDqas8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Huy" (connect: 0.00s, validation: 0.00s, handshake: 1.50s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Huy-notifications" at "2026-02-26T21:02:42.586488Z"
+[Licensing::Module] Licensing Background thread has ended after 1.50s
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.437844 seconds.
+- Loaded All Assemblies, in 16.506 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.575 seconds
+Domain Reload Profiling: 17078ms
+	BeginReloadAssembly (13585ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (755ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (495ms)
+	LoadAllAssembliesAndSetupDomain (1654ms)
+		LoadAssemblies (13586ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1645ms)
+			TypeCache.Refresh (1643ms)
+				TypeCache.ScanAssembly (1236ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (575ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (512ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (222ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475930774804-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in 15.810 seconds
+Refreshing native plugins compatible for Editor in 18.13 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 7.40 ms, found 6 plugins.
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.593 seconds
+Domain Reload Profiling: 17386ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (15434ms)
+		LoadAssemblies (14479ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1093ms)
+			TypeCache.Refresh (974ms)
+				TypeCache.ScanAssembly (951ms)
+			BuildScriptInfoCaches (100ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1593ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1047ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (198ms)
+			ProcessInitializeOnLoadAttributes (514ms)
+			ProcessInitializeOnLoadMethodAttributes (317ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 6.98 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7410 unused Assets / (5.5 MB). Loaded Objects now: 8322.
+Memory consumption went from 166.3 MB to 160.8 MB.
+Total: 21.311400 ms (FindLiveObjects: 1.402000 ms CreateObjectMapping: 1.317300 ms MarkObjects: 13.816900 ms  DeleteObjects: 4.773600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 717898.026621 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Accessory_Sign01.fbx
+  artifactKey: Guid(53b002f19f3f4554fbadf0c1e3c740fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Accessory_Sign01.fbx using Guid(53b002f19f3f4554fbadf0c1e3c740fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76d7721a1b3d7f6cf719c661c3415d50') in 0.6091607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.120775 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Inari_Large2.fbx
+  artifactKey: Guid(d05fbf4a95eb53344a8915c3a28db2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Inari_Large2.fbx using Guid(d05fbf4a95eb53344a8915c3a28db2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc7a19727b7eb4dab8133817a2688ebd') in 0.0446132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.610170 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Inari_Med1.fbx
+  artifactKey: Guid(b87e399b8473b7c40beb19c0492d624f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Inari_Med1.fbx using Guid(b87e399b8473b7c40beb19c0492d624f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a730444d283df37994e05ec014b716a9') in 0.0442915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.124006 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Inari_Med2.fbx
+  artifactKey: Guid(2cf272dfd24ba7d4b810132f68c6f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Inari_Med2.fbx using Guid(2cf272dfd24ba7d4b810132f68c6f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '792844c7d8997408934e3cace9cc134a') in 0.0459137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.646314 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Inari_Med3.fbx
+  artifactKey: Guid(727fcbd2eb803d84ea5eff6d5477b86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Inari_Med3.fbx using Guid(727fcbd2eb803d84ea5eff6d5477b86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b3391f6cdca7aab45530f60add8abbb') in 0.0370038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.752541 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Ise_Med1.fbx
+  artifactKey: Guid(fb839393c57800543914724ab364c931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Ise_Med1.fbx using Guid(fb839393c57800543914724ab364c931) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f74ea4ff8a820aa863861571fe629732') in 0.0334804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.712798 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Inari_Small1.fbx
+  artifactKey: Guid(b3cb7d54b36f661458d0f30b4be64736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Inari_Small1.fbx using Guid(b3cb7d54b36f661458d0f30b4be64736) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc1c9377abe6606901e5b0dcfae9fc0f') in 0.0427398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.920566 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Misasagi_Med1.fbx
+  artifactKey: Guid(81a016c70b596a74f8abbcdaf4705833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Misasagi_Med1.fbx using Guid(81a016c70b596a74f8abbcdaf4705833) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42ce3b6ca462f1f6cb944467239541e9') in 0.0296452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.623001 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Myoujin_Large1.fbx
+  artifactKey: Guid(ca91623d2d58e12489fd9444678baae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Myoujin_Large1.fbx using Guid(ca91623d2d58e12489fd9444678baae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3adbfe085501bd99016dd3f9f663e4e') in 0.0368254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.632871 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Myoujin_Med1.fbx
+  artifactKey: Guid(91bd1b2c59625ee48a95e6e3faa4f828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Myoujin_Med1.fbx using Guid(91bd1b2c59625ee48a95e6e3faa4f828) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4996f79a6a8d4278b78ea366c69de25') in 0.0490984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.354023 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Shinmei_Med1.fbx
+  artifactKey: Guid(c373a184513c2584386858243b637a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Shinmei_Med1.fbx using Guid(c373a184513c2584386858243b637a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72ff7887ebc73ff2e86cc4c5fc678e7e') in 0.0405563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.821807 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Sanno_Med1.fbx
+  artifactKey: Guid(7c41ba6a0db98c04cbd474bf4e615200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Sanno_Med1.fbx using Guid(7c41ba6a0db98c04cbd474bf4e615200) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dd9fcf2a3dcca59c171a4d507dbe719') in 0.0363966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.132200 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Votive_Stone1.fbx
+  artifactKey: Guid(946ecc7ee4779d44fa0036ff8c38eca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Votive_Stone1.fbx using Guid(946ecc7ee4779d44fa0036ff8c38eca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df1b3ff4dfcb45b494c6583b4ac03bfe') in 0.0166894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.735720 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Votive_Wood1.fbx
+  artifactKey: Guid(d434f2d438bc38e49b165853cdd9fb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Votive_Wood1.fbx using Guid(d434f2d438bc38e49b165853cdd9fb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed0239602c391220dcedcb87e08b1689') in 0.0179783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.795973 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Demo/Terrain/Torii_Demo_Terrain1.asset
+  artifactKey: Guid(46facb74e9242d0458813ab08e12af51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JTS_Shrine_Torii_Gates/Demo/Terrain/Torii_Demo_Terrain1.asset using Guid(46facb74e9242d0458813ab08e12af51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9a5566dff446580e718125c5315e60d') in 0.0976965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.738712 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Materials/tex_torii_wood_red_02.mat
+  artifactKey: Guid(3064253d0920a994e8ae2d69e1bf7676) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JTS_Shrine_Torii_Gates/Materials/tex_torii_wood_red_02.mat using Guid(3064253d0920a994e8ae2d69e1bf7676) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41fad40d867d4188744ffb10d7b94f93') in 0.0230969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.431278 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Textures/tex_torii_wood_red_04.psd
+  artifactKey: Guid(104d0a822508e714fad09c2c89d30340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Textures/tex_torii_wood_red_04.psd using Guid(104d0a822508e714fad09c2c89d30340) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36bc1852cc4445da53aab3461b7cdc48') in 0.0198269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.274147 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Materials/tex_torii_wood_red_04.mat
+  artifactKey: Guid(a338dd176fffa71459a6a49bdd25e1c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JTS_Shrine_Torii_Gates/Materials/tex_torii_wood_red_04.mat using Guid(a338dd176fffa71459a6a49bdd25e1c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a68708125e1459fb60a29f0b6892eec6') in 0.0192872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.153145 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Materials/tex_torii_wood_red_03.mat
+  artifactKey: Guid(cff93dc9990c2e94a90c47e2b6185fd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JTS_Shrine_Torii_Gates/Materials/tex_torii_wood_red_03.mat using Guid(cff93dc9990c2e94a90c47e2b6185fd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '28a178ba485b969b8e2e42e3ac52e799') in 0.0169483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.595961 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Textures/tex_torii_wood_red_02.psd
+  artifactKey: Guid(112b57429d3a02340aae477d347c5173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Textures/tex_torii_wood_red_02.psd using Guid(112b57429d3a02340aae477d347c5173) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8702b60931057f4f98fd972bc1af82e') in 0.0158303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.072593 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Textures/tex_torii_wood_red_01_nrm.psd
+  artifactKey: Guid(d8d3ee28f99e0a74ea7aa1728cc45f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Textures/tex_torii_wood_red_01_nrm.psd using Guid(d8d3ee28f99e0a74ea7aa1728cc45f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99d7b3863bfe3e84d54ed38719038fd5') in 0.0198946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.609845 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Materials/tex_torii_wood_red_01_nrm.mat
+  artifactKey: Guid(718a7be9fcb310c4e9b792ed372f4299) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JTS_Shrine_Torii_Gates/Materials/tex_torii_wood_red_01_nrm.mat using Guid(718a7be9fcb310c4e9b792ed372f4299) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8c2a95f3c72e39bc49a990c582e40f4') in 0.0271477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.733431 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Materials/tex_torii_wood_shinmei_01.mat
+  artifactKey: Guid(9308fd1bcf4ff15468c7680a776935be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JTS_Shrine_Torii_Gates/Materials/tex_torii_wood_shinmei_01.mat using Guid(9308fd1bcf4ff15468c7680a776935be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8893e97e93bffdb5aff8407bb7d3f62') in 0.0163288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.889311 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Hachiman_Med1.fbx
+  artifactKey: Guid(c825812b2e5cd7c4197b6f3262cdfdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Hachiman_Med1.fbx using Guid(c825812b2e5cd7c4197b6f3262cdfdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '644998a08dd4e204ee6773194dc39d7d') in 0.0369634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.107347 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a63d02f1319174ea4b4e69da9fc56a0b') in 0.0143065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.583727 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Accessory_Sign02.fbx
+  artifactKey: Guid(efdcdbaf7a64f9644aa3ba1f4341f512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Mesh/Torii_Accessory_Sign02.fbx using Guid(efdcdbaf7a64f9644aa3ba1f4341f512) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6557276e0af34cf0df0f800754308c7d') in 0.0291369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.284628 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b186b6b846ef9886f8a102dd0d2aeba') in 0.0251157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.785222 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3d1e23eae2e764c69b376eaae7cb3a8c') in 0.0147362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.689821 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Textures/tex_torii_stone_02.psd
+  artifactKey: Guid(2105e2ccbdf2cd2418518e3ba8545079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Textures/tex_torii_stone_02.psd using Guid(2105e2ccbdf2cd2418518e3ba8545079) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eb7b7cd130c42151d4cd7f7f81f58f6') in 0.0161616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.183533 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Materials/tex_torii_stone_02.mat
+  artifactKey: Guid(3f2c7c2444cdcfb448140abfdea286ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JTS_Shrine_Torii_Gates/Materials/tex_torii_stone_02.mat using Guid(3f2c7c2444cdcfb448140abfdea286ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5651f2deb4487e50a0dff3ffb35191d') in 0.0156693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.256572 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Materials/tex_torii_stone_02_nrm.mat
+  artifactKey: Guid(d27b18f269db7f44a9884d245b2fff34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JTS_Shrine_Torii_Gates/Materials/tex_torii_stone_02_nrm.mat using Guid(d27b18f269db7f44a9884d245b2fff34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c66b2a42c84c72ad0af1e5007b8d5f8') in 0.0154053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.487763 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Textures/tex_torii_wood_ise_01.psd
+  artifactKey: Guid(028ede06e03c071439ee2c817e9a16d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_Shrine_Torii_Gates/Textures/tex_torii_wood_ise_01.psd using Guid(028ede06e03c071439ee2c817e9a16d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd23731b17b516f52a6fea1bead23bde3') in 0.0182186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.391907 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Materials/tex_torii_wood_ise_01.mat
+  artifactKey: Guid(a85da39097881bf4db3963e3cc4851aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JTS_Shrine_Torii_Gates/Materials/tex_torii_wood_ise_01.mat using Guid(a85da39097881bf4db3963e3cc4851aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f078e690e9cc2536ae5cb5f6670e358f') in 0.0181175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.110876 seconds.
+  path: Assets/JTS_Shrine_Torii_Gates/Materials/tex_torii_accessory_01.mat
+  artifactKey: Guid(a816a534faaff5f4d9d3654c8353ba32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JTS_Shrine_Torii_Gates/Materials/tex_torii_accessory_01.mat using Guid(a816a534faaff5f4d9d3654c8353ba32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '776a080d38fd2b9206027ba1571caae7') in 0.0178968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.156860 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ecc470223d73102606591ad6c1e6cc71') in 0.0142494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.976 seconds
+Refreshing native plugins compatible for Editor in 6.09 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.955 seconds
+Domain Reload Profiling: 1930ms
+	BeginReloadAssembly (260ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (629ms)
+		LoadAssemblies (503ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (197ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (956ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (768ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (386ms)
+			ProcessInitializeOnLoadMethodAttributes (209ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 6.42 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7407 unused Assets / (4.8 MB). Loaded Objects now: 8377.
+Memory consumption went from 179.7 MB to 174.9 MB.
+Total: 18.905000 ms (FindLiveObjects: 0.787100 ms CreateObjectMapping: 1.014800 ms MarkObjects: 13.616100 ms  DeleteObjects: 3.484500 ms)
+
+Prepare: number of updated asset objects reloaded= 0

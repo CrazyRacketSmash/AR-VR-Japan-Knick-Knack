@@ -1,0 +1,586 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.7f1 (696ec25a53d1) revision 6909634'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Huy" at "2026-02-26T23:10:42.8214865Z"
+OS: 'Windows 11  (10.0.22621) Core' Language: 'en' Physical Memory: 15720 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-26T23:10:42Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/Huy/VR_Project_1/VR_1
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+62088
+-licensingIpc
+LicenseClient-Huy
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Huy/VR_Project_1/VR_1
+C:/Users/Huy/VR_Project_1/VR_1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [26792]  Target information:
+
+Player connection [26792]  * "[IP] 192.168.1.160 [Port] 0 [Flags] 2 [Guid] 1457688080 [EditorId] 1457688080 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TFC479D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26792] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26792] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 53.52 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 3.56 ms.
+Initialize engine version: 6000.3.7f1 (696ec25a53d1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Huy/VR_Project_1/VR_1/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.8132
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              d0ba63f0a7b344a7ac3077247a7ba05d
+  Correlation Id:          461a07af8c964f5848b39d6a12e99a94
+  External correlation Id: 2100210527225747298
+  Machine Id:              q6xk2LuWl63HV6xgbHtH6jDqas8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Huy" (connect: 0.00s, validation: 0.00s, handshake: 1.14s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Huy-notifications" at "2026-02-26T23:10:43.963467Z"
+[Licensing::Module] Licensing Background thread has ended after 1.14s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002385 seconds.
+- Loaded All Assemblies, in  0.544 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.546 seconds
+Domain Reload Profiling: 1088ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (240ms)
+		LoadAssemblies (174ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (234ms)
+			TypeCache.Refresh (232ms)
+				TypeCache.ScanAssembly (214ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (547ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (484ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (70ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475930774804-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.156 seconds
+Refreshing native plugins compatible for Editor in 7.99 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 8.57 ms, found 6 plugins.
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.270 seconds
+Domain Reload Profiling: 2421ms
+	BeginReloadAssembly (234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (792ms)
+		LoadAssemblies (523ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (390ms)
+			TypeCache.Refresh (263ms)
+				TypeCache.ScanAssembly (243ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1271ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1012ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (209ms)
+			ProcessInitializeOnLoadAttributes (494ms)
+			ProcessInitializeOnLoadMethodAttributes (293ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 7.75 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7423 unused Assets / (5.1 MB). Loaded Objects now: 8349.
+Memory consumption went from 171.6 MB to 166.4 MB.
+Total: 21.624500 ms (FindLiveObjects: 1.029900 ms CreateObjectMapping: 1.574100 ms MarkObjects: 14.156000 ms  DeleteObjects: 4.862300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 725631.231640 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/eyeline_00.mat
+  artifactKey: Guid(316e292d7c1ad4f4990c6e4a79ddfe2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/eyeline_00.mat using Guid(316e292d7c1ad4f4990c6e4a79ddfe2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '185cd1a966b65d8f88f8f8216693ba1b') in 0.1378514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.445710 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/eye_iris_R_0.mat
+  artifactKey: Guid(a9f34eb7301c48e458f3cc66ecb2dbdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/eye_iris_R_0.mat using Guid(a9f34eb7301c48e458f3cc66ecb2dbdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a0660895bd8f9992148cb3a861df310') in 0.0181067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.741275 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/cheek_1.mat
+  artifactKey: Guid(7d33ec7c53a03cc4dbf959511233f751) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/cheek_1.mat using Guid(7d33ec7c53a03cc4dbf959511233f751) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4eef155e089793ef12bdd5eef2cb1837') in 0.0160643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.766004 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/FO_SKIN1.mat
+  artifactKey: Guid(9f8e2a87dc03cf9498d855ff1e56148a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/FO_SKIN1.mat using Guid(9f8e2a87dc03cf9498d855ff1e56148a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '273dead74ed9cefb5db80c34ef5524c0') in 0.0151656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.528631 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/face_1.mat
+  artifactKey: Guid(10b17305dff0d9645adbe2bd90073dfe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/face_1.mat using Guid(10b17305dff0d9645adbe2bd90073dfe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6352aff1939ed6b0fd9e343697ea38e3') in 0.0154894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.793076 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/hair_01.tga
+  artifactKey: Guid(cbb65ec17f92eb44fb0dde6381b6a415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/hair_01.tga using Guid(cbb65ec17f92eb44fb0dde6381b6a415) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a38849123fac823f7d1ac4bca9cfda1') in 0.0506516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.153803 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/face_2.mat
+  artifactKey: Guid(d80f83e33095bbb469cc163863192337) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/face_2.mat using Guid(d80f83e33095bbb469cc163863192337) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '05e4118bd775863cab8ac971bd7d4b85') in 0.0151227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.468066 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/eyeline_0.mat
+  artifactKey: Guid(be4acdc183ced964a8dc88ade525b212) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/eyeline_0.mat using Guid(be4acdc183ced964a8dc88ade525b212) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db06dcf19576f69d36f4385b45e9751b') in 0.0150878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.374239 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/face_3.mat
+  artifactKey: Guid(3b5779e7dfdcab249becdd6932661876) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/face_3.mat using Guid(3b5779e7dfdcab249becdd6932661876) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03326a80ce422c17d9483b8b6dcdb3e3') in 0.0147061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.730734 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/face_4.mat
+  artifactKey: Guid(aa9e0da937e789f48a18b5db0a523f24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/face_4.mat using Guid(aa9e0da937e789f48a18b5db0a523f24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a21248eeac251f26c758202534342b2') in 0.0150066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.368862 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/body_15.mat
+  artifactKey: Guid(e7368000bdb2795408c5a450ad3a04e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/body_15.mat using Guid(e7368000bdb2795408c5a450ad3a04e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e69a63aaa34f04a513484af72976828') in 0.0147045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.178819 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/body_16.mat
+  artifactKey: Guid(e7cf0cd7d047f5d449916cd32d5e19a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/body_16.mat using Guid(e7cf0cd7d047f5d449916cd32d5e19a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dbeb843feac9870ee03414dbac6e287c') in 0.0162188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.177183 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/skin_3.mat
+  artifactKey: Guid(31f991d225c71754e8785b0de0237654) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/skin_3.mat using Guid(31f991d225c71754e8785b0de0237654) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd60ec9171ac11d1c5b9ed5448ed52559') in 0.0158601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.785410 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/face_5.mat
+  artifactKey: Guid(3bc6fc23de6f5d64abaa27a40ee20460) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/face_5.mat using Guid(3bc6fc23de6f5d64abaa27a40ee20460) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e24e03a153b3cdf6f794ab2d44d24f19') in 0.0146755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.592182 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/face_6.mat
+  artifactKey: Guid(93cf7ee21c49e4c468a4eb5b803a4482) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/face_6.mat using Guid(93cf7ee21c49e4c468a4eb5b803a4482) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8bc2bee55e3c9c58d8f1dc94e221843c') in 0.0155705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.517461 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/cheek_2.mat
+  artifactKey: Guid(eb1698dd76da08c4ba0eeea99f4a1aa4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/cheek_2.mat using Guid(eb1698dd76da08c4ba0eeea99f4a1aa4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '225359d53e5a7f3d3fad56e612c6e435') in 0.0141701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.561400 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/FO_CLOTH1.mat
+  artifactKey: Guid(e64f2e71280340a4b8c117543cd65894) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/FO_CLOTH1.mat using Guid(e64f2e71280340a4b8c117543cd65894) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f8d7737eb5b52a8f20faeed994de319') in 0.013941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.914027 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/eyeline_1.mat
+  artifactKey: Guid(ed42fd26a7b9b3448b3894abbc203f6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/eyeline_1.mat using Guid(ed42fd26a7b9b3448b3894abbc203f6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2c4891ace1fb9765d4e670380c6f9c1') in 0.0151116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.958847 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/eye_iris_L_0.mat
+  artifactKey: Guid(e27aae6311139ad41b011a5a5240741b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/eye_iris_L_0.mat using Guid(e27aae6311139ad41b011a5a5240741b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '14f96d969ceda0a4730d1a96254be37a') in 0.0274004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.694327 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/FO_RIM1.mat
+  artifactKey: Guid(2200b538554b18841964e10628a66c73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/FO_RIM1.mat using Guid(2200b538554b18841964e10628a66c73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb8911a1580c98f56c1c2ecc20c46f81') in 0.0250919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.666020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/FO_CLOTH2.mat
+  artifactKey: Guid(ec8471e314bd4a64ba4dee706ad03c31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/FO_CLOTH2.mat using Guid(ec8471e314bd4a64ba4dee706ad03c31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f671968452c34f47cd99a87f66e7cda') in 0.0271805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.778564 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/eyeline_2.mat
+  artifactKey: Guid(40b0347763493a344ac614cd4fc068bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/eyeline_2.mat using Guid(40b0347763493a344ac614cd4fc068bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '84f483290a0af788ff7ec410ce541563') in 0.0157198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.891505 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/cheek_3.mat
+  artifactKey: Guid(123f34df476292442b18e608241378c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/cheek_3.mat using Guid(123f34df476292442b18e608241378c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e5a3f2c5d5ed3635dda2c76d74f8761') in 0.0273616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.893151 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/cheek_4.mat
+  artifactKey: Guid(a6566443175855041970f927f965c63c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/cheek_4.mat using Guid(a6566443175855041970f927f965c63c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '44d47db5193ad6462a5628509d8dfbe0') in 0.015911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.471533 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/FO_CLOTH3.mat
+  artifactKey: Guid(c19270d2039a88f4bba7595016c7bd19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/FO_CLOTH3.mat using Guid(c19270d2039a88f4bba7595016c7bd19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a48792371a4eb2eca54bf945d709a0de') in 0.0146398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.261433 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/cheek_5.mat
+  artifactKey: Guid(2bc8938ce7277b347bbb6e7408f5118b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/cheek_5.mat using Guid(2bc8938ce7277b347bbb6e7408f5118b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '888514b99a33e1522d613b9f79c5010b') in 0.0147475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.015108 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/skin_4.mat
+  artifactKey: Guid(e2b2ce038ef2648458e6e004511e4b23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/skin_4.mat using Guid(e2b2ce038ef2648458e6e004511e4b23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b99f6a10cc3c0b67457264b1c3a252d8') in 0.0155553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.717424 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/FO_CLOTH4.mat
+  artifactKey: Guid(4da25c64c25da354790a4d9d0ede638d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/FO_CLOTH4.mat using Guid(4da25c64c25da354790a4d9d0ede638d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9bdc41adfac164c35950558674c57b9') in 0.015239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.231785 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/skin_5.mat
+  artifactKey: Guid(f32a436269175f54db4af32c66be9169) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/skin_5.mat using Guid(f32a436269175f54db4af32c66be9169) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f11d0dfa08f0f95c2cf809a7b5dc36f') in 0.0126931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.764638 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/skin_6.mat
+  artifactKey: Guid(f8ae547357ff8f64391ed49de46570b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/skin_6.mat using Guid(f8ae547357ff8f64391ed49de46570b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e2513966a039cfc239bdb7902a3279e9') in 0.015586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.335441 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/face_7.mat
+  artifactKey: Guid(9c0e047cde495df449509497f98a379d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/face_7.mat using Guid(9c0e047cde495df449509497f98a379d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9043576c1dccfb5d088d36606641bb22') in 0.0151834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.933394 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/face_8.mat
+  artifactKey: Guid(bb6cee941fc9b424996076e8aef660fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/face_8.mat using Guid(bb6cee941fc9b424996076e8aef660fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b716fe01daa4895b9d628de800e15dc2') in 0.0133937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.690774 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d60a236bce821130a154a868fd1d541') in 0.0156557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.364762 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/Animators/UnityChanARPose.controller
+  artifactKey: Guid(3173dc991e314594abd6180b45c49c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/Animators/UnityChanARPose.controller using Guid(3173dc991e314594abd6180b45c49c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6658597eeea78ea8cf2e00b10cb6510e') in 0.0321577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 162
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.473745 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/MTH_DEF.controller
+  artifactKey: Guid(3a1b5a965b8d2ff4d850701aa5ca6907) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/MTH_DEF.controller using Guid(3a1b5a965b8d2ff4d850701aa5ca6907) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a4b3abcd1a312ca3b8d96119553f086') in 0.0150308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.848652 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/EYE_DEF.controller
+  artifactKey: Guid(fab7b5a991c726844b6993391efba6e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/EYE_DEF.controller using Guid(fab7b5a991c726844b6993391efba6e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d781d4ffec4780619089990af7c6bd8') in 0.0140227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.271899 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/unitychan.controller
+  artifactKey: Guid(81fcfef032cc52349b358e0e6fdd02ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/unitychan.controller using Guid(81fcfef032cc52349b358e0e6fdd02ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10e44f0b8a8958c99591d0a1b0bafd05') in 0.0018703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.046019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/SURPRISE.anim
+  artifactKey: Guid(a20620e3db1a64f2f9a3e3339b884479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/SURPRISE.anim using Guid(a20620e3db1a64f2f9a3e3339b884479) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '309758bd6fb6ac4156bb17eb92d07e5f') in 0.0015157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.813286 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/smile2@unitychan.anim
+  artifactKey: Guid(901d9b98ec9a64ade8f264b6e32c1341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/smile2@unitychan.anim using Guid(901d9b98ec9a64ade8f264b6e32c1341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c0dc661091e042ae6213308f39296e3') in 0.0015772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.712590 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/sap@unitychan.anim
+  artifactKey: Guid(ff0ec808b24b748e482e13ebfc9305ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/sap@unitychan.anim using Guid(ff0ec808b24b748e482e13ebfc9305ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df330d259f72fd96de44150c34a76c2e') in 0.0016297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.790300 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/MTH_U.anim
+  artifactKey: Guid(69a5af149623d4592b3764b7cb6a7482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/MTH_U.anim using Guid(69a5af149623d4592b3764b7cb6a7482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1943cc5478b0ebd46b95742cdd48815d') in 0.0013364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.319152 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/MTH_I.anim
+  artifactKey: Guid(5da03c4c995e34f35a8c17702e9d6012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/MTH_I.anim using Guid(5da03c4c995e34f35a8c17702e9d6012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2aab96a43ee0fee225da7bb0a13987ab') in 0.001396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.545854 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/cheek_6.mat
+  artifactKey: Guid(8d39c3663828e5b4ca18aff130323048) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/cheek_6.mat using Guid(8d39c3663828e5b4ca18aff130323048) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0beac69e2993071de07aa80937c16ed') in 0.0140125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.162346 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/cheek_7.mat
+  artifactKey: Guid(88ecbeae80ff0514a958a79f2f009afe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/cheek_7.mat using Guid(88ecbeae80ff0514a958a79f2f009afe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '78204ba21bb12906d3c7f08ca1b46c5b') in 0.0156234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.545145 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/cheek_8.mat
+  artifactKey: Guid(20368c0143aecb5459e7e20e84e80bc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/Materials/cheek_8.mat using Guid(20368c0143aecb5459e7e20e84e80bc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'beca930b8aefb325c0a1d1f00348c09d') in 0.0141125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.938436 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Materials/face.mat
+  artifactKey: Guid(4d83bd267b90e934e88637afcd02cb8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Materials/face.mat using Guid(4d83bd267b90e934e88637afcd02cb8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54cc9d03f983c8369f788963fc2913cc') in 0.0170399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+

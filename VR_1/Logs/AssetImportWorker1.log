@@ -1,0 +1,342 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.7f1 (696ec25a53d1) revision 6909634'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) Core' Language: 'en' Physical Memory: 15720 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Huy" at "2026-02-26T22:28:20.2967505Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-26T22:28:20Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Huy/VR_Project_1/VR_1
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62088
+-licensingIpc
+LicenseClient-Huy
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Huy/VR_Project_1/VR_1
+C:/Users/Huy/VR_Project_1/VR_1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [35752]  Target information:
+
+Player connection [35752]  * "[IP] 192.168.1.160 [Port] 0 [Flags] 2 [Guid] 203952088 [EditorId] 203952088 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TFC479D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35752] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [35752] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 70.69 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 5.44 ms.
+Initialize engine version: 6000.3.7f1 (696ec25a53d1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Huy/VR_Project_1/VR_1/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.8132
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              aad49bf472e747819ae48096e9342c23
+  Correlation Id:          461a07af8c964f5848b39d6a12e99a94
+  External correlation Id: 650888847056144352
+  Machine Id:              q6xk2LuWl63HV6xgbHtH6jDqas8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Huy" (connect: 0.00s, validation: 0.00s, handshake: 2.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Huy-notifications" at "2026-02-26T22:28:22.2999824Z"
+[Licensing::Module] Licensing Background thread has ended after 2.00s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005065 seconds.
+- Loaded All Assemblies, in  0.959 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.069 seconds
+Domain Reload Profiling: 2022ms
+	BeginReloadAssembly (305ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (122ms)
+	LoadAllAssembliesAndSetupDomain (406ms)
+		LoadAssemblies (300ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (399ms)
+			TypeCache.Refresh (396ms)
+				TypeCache.ScanAssembly (370ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1070ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (951ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (151ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (233ms)
+			ProcessInitializeOnLoadAttributes (393ms)
+			ProcessInitializeOnLoadMethodAttributes (166ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475930774804-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.284 seconds
+Refreshing native plugins compatible for Editor in 13.41 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 17.26 ms, found 6 plugins.
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.326 seconds
+Domain Reload Profiling: 4598ms
+	BeginReloadAssembly (453ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (94ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (106ms)
+	LoadAllAssembliesAndSetupDomain (1576ms)
+		LoadAssemblies (1054ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (791ms)
+			TypeCache.Refresh (505ms)
+				TypeCache.ScanAssembly (465ms)
+			BuildScriptInfoCaches (254ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2327ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1760ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (275ms)
+			ProcessInitializeOnLoadAttributes (922ms)
+			ProcessInitializeOnLoadMethodAttributes (538ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 17.91 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7410 unused Assets / (4.8 MB). Loaded Objects now: 8322.
+Memory consumption went from 168.6 MB to 163.7 MB.
+Total: 27.372200 ms (FindLiveObjects: 1.237000 ms CreateObjectMapping: 2.012400 ms MarkObjects: 19.873900 ms  DeleteObjects: 4.246900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 723024.050984 seconds.
+  path: Assets/JapaneseFood_Sushi Free/Assets/Prefabs/Leaf_02_Free.prefab
+  artifactKey: Guid(12e4a5bb724bd2a41a3de90681bd1b5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JapaneseFood_Sushi Free/Assets/Prefabs/Leaf_02_Free.prefab using Guid(12e4a5bb724bd2a41a3de90681bd1b5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a75455d71af228b3f79ad64c26395b8b') in 0.1359191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/JapaneseFood_Sushi Free/Assets/Mesh/Plate_01_Free.fbx
+  artifactKey: Guid(6cb82343b8df4b9478b8014d41f96332) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JapaneseFood_Sushi Free/Assets/Mesh/Plate_01_Free.fbx using Guid(6cb82343b8df4b9478b8014d41f96332) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '867e4b3c04b7829fe0ca17f984471fd4') in 0.1103393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/JapaneseFood_Sushi Free/Assets/Prefabs/Plate_01_Free.prefab
+  artifactKey: Guid(cb975d82732481b42bd695caa253ae7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JapaneseFood_Sushi Free/Assets/Prefabs/Plate_01_Free.prefab using Guid(cb975d82732481b42bd695caa253ae7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4826df851e72611b703f7ff1f7e9a21') in 0.0212571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JapaneseFood_Sushi Free/Assets/Mesh/Nigiri_Sake_Free.fbx
+  artifactKey: Guid(fa2510b10228a1b4f8c96154532a1ed9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JapaneseFood_Sushi Free/Assets/Mesh/Nigiri_Sake_Free.fbx using Guid(fa2510b10228a1b4f8c96154532a1ed9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c031ee0b344efae5d7cd8d015f565cce') in 0.0245233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/JapaneseFood_Sushi Free/Documentation/Sushi Information.pdf
+  artifactKey: Guid(3161ef704b2a126488d4735812c9f007) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JapaneseFood_Sushi Free/Documentation/Sushi Information.pdf using Guid(3161ef704b2a126488d4735812c9f007) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b68eb5bec7559635433f6d341cf7cca') in 0.0194083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/JapaneseFood_Sushi Free/Assets/GameObject.prefab
+  artifactKey: Guid(408210b8726538648b4d46f462c0736c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JapaneseFood_Sushi Free/Assets/GameObject.prefab using Guid(408210b8726538648b4d46f462c0736c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9abebf9e3ac92b7bc5f408d8a0d948ac') in 0.0175377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/JapaneseFood_Sushi Free/Documentation
+  artifactKey: Guid(70cd1eb7b25f3bc439d73d80ed9dd19b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JapaneseFood_Sushi Free/Documentation using Guid(70cd1eb7b25f3bc439d73d80ed9dd19b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '46a904c858404447641fe2ff7a83a608') in 0.0149042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/JapaneseFood_Sushi Free/Assets/Textures
+  artifactKey: Guid(2783f9f624c9fa04a9d37719207c9bb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JapaneseFood_Sushi Free/Assets/Textures using Guid(2783f9f624c9fa04a9d37719207c9bb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '794c9c8148c8013d1a81558cb813047c') in 0.0230817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JapaneseFood_Sushi Free/Demo/Demo_Content.unity
+  artifactKey: Guid(4f415af6de42c15449949973677ce5fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JapaneseFood_Sushi Free/Demo/Demo_Content.unity using Guid(4f415af6de42c15449949973677ce5fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ee42ccc5e06c53347a024d3a369df49') in 0.0195783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JapaneseFood_Sushi Free/Assets/Materials
+  artifactKey: Guid(82bb940f77b83ab4684df6726584bce5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JapaneseFood_Sushi Free/Assets/Materials using Guid(82bb940f77b83ab4684df6726584bce5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ca00d664c0d02ff80451833f89d2978') in 0.0164555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/JapaneseFood_Sushi Free/Assets/Prefabs
+  artifactKey: Guid(fa374faa74f0af144ad4a241ffb9b484) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JapaneseFood_Sushi Free/Assets/Prefabs using Guid(fa374faa74f0af144ad4a241ffb9b484) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1fe6b10feefc50424f2eca2c8e0490a5') in 0.0158136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JapaneseFood_Sushi Free/Documentation/Readme Brushzim.pdf
+  artifactKey: Guid(c8f0cd852dd41bb41a2bee130aab0665) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JapaneseFood_Sushi Free/Documentation/Readme Brushzim.pdf using Guid(c8f0cd852dd41bb41a2bee130aab0665) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d572d84c782a4fe2c27d8210bc23e60') in 0.0146892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JapaneseFood_Sushi Free/Assets/Mesh/Leaf_03_Free.fbx
+  artifactKey: Guid(0c4c91fe57a16334e83aca5e0e1cf510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JapaneseFood_Sushi Free/Assets/Mesh/Leaf_03_Free.fbx using Guid(0c4c91fe57a16334e83aca5e0e1cf510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f037cb630feb8b9273a4ceb015b3cc4d') in 0.0261159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JapaneseFood_Sushi Free/Assets
+  artifactKey: Guid(3b0cca88ebdc46b4dbe4a04a47995d1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JapaneseFood_Sushi Free/Assets using Guid(3b0cca88ebdc46b4dbe4a04a47995d1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '688a28a202d86ec5b96e929388210fc7') in 0.0187596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/JapaneseFood_Sushi Free/Assets/Prefabs/Leaf_03_Free.prefab
+  artifactKey: Guid(949d3bbcfa43e0147a1c6b7295ebdbe7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/JapaneseFood_Sushi Free/Assets/Prefabs/Leaf_03_Free.prefab using Guid(949d3bbcfa43e0147a1c6b7295ebdbe7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '879121c7be20060c4400315083b1dde9') in 0.0211297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

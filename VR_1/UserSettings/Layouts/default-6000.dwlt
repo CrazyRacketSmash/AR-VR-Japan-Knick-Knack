@@ -608,7 +608,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Editor/Vuforia/ImageTargetTextures/VRbarcode
+    - Packages/com.ptc.vuforia.engine
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -618,30 +618,30 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Editor/Vuforia/ImageTargetTextures/VRbarcode
+  - Packages/com.ptc.vuforia.engine
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Huy\VR_Project_1\VR_1
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 109.0004}
+    scrollPos: {x: 0, y: 777.89844}
     m_SelectedIDs:
-    - m_Data: 52958
+    - m_Data: 52854
     m_LastClickedID:
-      m_Data: 52958
+      m_Data: 52854
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 51058
-    - m_Data: 51060
-    - m_Data: 51062
-    - m_Data: 51064
-    - m_Data: 51066
-    - m_Data: 51068
-    - m_Data: 51070
-    - m_Data: 51360
-    - m_Data: 52950
-    - m_Data: 52954
+    - m_Data: 52848
+    - m_Data: 52850
+    - m_Data: 52852
+    - m_Data: 52854
+    - m_Data: 52856
+    - m_Data: 52858
+    - m_Data: 52860
+    - m_Data: 52862
+    - m_Data: 52864
+    - m_Data: 52866
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -676,13 +676,16 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 51058
-    - m_Data: 51060
-    - m_Data: 51062
-    - m_Data: 51064
-    - m_Data: 51066
-    - m_Data: 51068
-    - m_Data: 51070
+    - m_Data: 52848
+    - m_Data: 52850
+    - m_Data: 52852
+    - m_Data: 52854
+    - m_Data: 52856
+    - m_Data: 52858
+    - m_Data: 52860
+    - m_Data: 52862
+    - m_Data: 52864
+    - m_Data: 52866
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -711,7 +714,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: []
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs:
     - m_Data: 59960
     - m_Data: 109782
@@ -840,10 +843,9 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -5526
-      - m_Data: -3074
+      - m_Data: -8316
       - m_Data: -1302
-      - m_Data: 50990
+      - m_Data: 51074
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1464,9 +1466,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 13.407673, y: 1.5071723, z: 19.681885}
+    m_Target: {x: 9.570297, y: 1.9883952, z: 24.188234}
     speed: 2
-    m_Value: {x: 13.407673, y: 1.5071723, z: 19.681885}
+    m_Value: {x: 9.570297, y: 1.9883952, z: 24.188234}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1514,11 +1516,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 1, z: 0, w: 0}
     speed: 2
-    m_Value: {x: 0, y: 1, z: 0, w: 0}
+    m_Value: {x: -0.00000006620412, y: 1, z: 0, w: 0.00000006620412}
   m_Size:
-    m_Target: 6.689072
+    m_Target: 2.9755735
     speed: 2
-    m_Value: 6.689072
+    m_Value: 3.1157837
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1631,7 +1633,7 @@ MonoBehaviour:
   m_SerializedViewNames:
   - UnityEditor.DeviceSimulation.SimulatorWindow
   m_SerializedViewValues:
-  - C:\Users\Huy\My project\Library\PlayModeViewStates\5edcfd7f7637ccf4ea50cbcad0014ff3
+  - C:\Users\Huy\VR_Project_1\VR_1\Library\PlayModeViewStates\9f1bb2132ce71a44dbb42af502d3f6ec
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
@@ -1663,7 +1665,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1

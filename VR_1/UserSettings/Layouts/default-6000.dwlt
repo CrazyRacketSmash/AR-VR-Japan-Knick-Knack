@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 78
+  controlID: 38
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 211
+  controlID: 39
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -608,7 +608,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Editor/Vuforia/ImageTargetTextures/VRbarcode
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -618,22 +618,30 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/Editor/Vuforia/ImageTargetTextures/VRbarcode
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Huy\VR_Project_1\VR_1
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
+    scrollPos: {x: 0, y: 109.0004}
     m_SelectedIDs:
-    - m_Data: 50620
+    - m_Data: 52958
     m_LastClickedID:
-      m_Data: 50620
+      m_Data: 52958
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50620
-    - m_Data: 50956
+    - m_Data: 51058
+    - m_Data: 51060
+    - m_Data: 51062
+    - m_Data: 51064
+    - m_Data: 51066
+    - m_Data: 51068
+    - m_Data: 51070
+    - m_Data: 51360
+    - m_Data: 52950
+    - m_Data: 52954
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -668,7 +676,13 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50620
+    - m_Data: 51058
+    - m_Data: 51060
+    - m_Data: 51062
+    - m_Data: 51064
+    - m_Data: 51066
+    - m_Data: 51068
+    - m_Data: 51070
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -726,7 +740,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 111.400024}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 245
@@ -826,9 +840,10 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -1436
-      - m_Data: 50546
-      - m_Data: 50556
+      - m_Data: -5526
+      - m_Data: -3074
+      - m_Data: -1302
+      - m_Data: 50990
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1449,9 +1464,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 10.694745, y: 2.792725, z: 22.975363}
+    m_Target: {x: 13.407673, y: 1.5071723, z: 19.681885}
     speed: 2
-    m_Value: {x: 10.694745, y: 2.792725, z: 22.975363}
+    m_Value: {x: 13.407673, y: 1.5071723, z: 19.681885}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1499,11 +1514,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 1, z: 0, w: 0}
     speed: 2
-    m_Value: {x: 0, y: -0.99999994, z: -0, w: 0.00000009362675}
+    m_Value: {x: 0, y: 1, z: 0, w: 0}
   m_Size:
-    m_Target: 2.2160332
+    m_Target: 6.689072
     speed: 2
-    m_Value: 2.2160332
+    m_Value: 6.689072
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1599,7 +1614,7 @@ MonoBehaviour:
     x: 292
     y: 79.200005
     width: 890.80005
-    height: 430
+    height: 457.2
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1648,7 +1663,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1658,22 +1673,22 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 890.80005
-      height: 409
-    m_Scale: {x: 0.3550347, y: 0.3550347}
-    m_Translation: {x: 445.40002, y: 204.5}
+      height: 436.2
+    m_Scale: {x: 0.37864584, y: 0.37864584}
+    m_Translation: {x: 445.4, y: 218.1}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1254.5253
+      x: -1176.2971
       y: -576
-      width: 2509.0505
+      width: 2352.5942
       height: 1152
     m_MinimalGUI: 1
-  m_defaultScale: 0.3550347
-  m_LastWindowPixelSize: {x: 890.80005, y: 430}
+  m_defaultScale: 0.37864584
+  m_LastWindowPixelSize: {x: 1113.5, y: 571.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100

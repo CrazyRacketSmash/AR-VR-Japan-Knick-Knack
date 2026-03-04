@@ -5,9 +5,14 @@ using UnityEngine.Networking;
 
 public class KyotoWeather : MonoBehaviour
 {
-    public TextMeshPro text;
+    TextMeshProUGUI text;
     public string apiKey = "4c91371cc501ca36efe3e4fc68ea84d2";
-    float updateInterval = 600f; // update every 10 minutes
+    float updateInterval = 5f;
+
+    void Awake()
+    {
+        text = GetComponent<TextMeshProUGUI>();
+    }
 
     void Start()
     {
@@ -24,11 +29,19 @@ public class KyotoWeather : MonoBehaviour
             UnityWebRequest request = UnityWebRequest.Get(url);
             yield return request.SendWebRequest();
 
+            if (request.result == UnityWebRequest.Result.Success)
+            {
+                string json = request.downloadHandler.text;
+                WeatherData data = JsonUtility.FromJson<WeatherData>(json);
 
-            string json = request.downloadHandler.text;
-            WeatherData data = JsonUtility.FromJson<WeatherData>(json);
-            text.text = $"{data.main.temp}°C";
-
+                if (data != null && data.main != null)
+                    text.text = data.main.temp + "°C";
+            }
+            else
+            {
+                text.text = "Weather Error";
+                Debug.Log(request.error);
+            }
 
             yield return new WaitForSeconds(updateInterval);
         }
